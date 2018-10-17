@@ -2,15 +2,17 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #fea3a3;
-  font-family: 'Oxygen', sans-serif;
+.pagecontainer {
+  margin: auto;
+  max-width: 90vw;
+  background: radial-gradient (lightgrey);
 }
 
-.container {
-  margin: auto;
-  max-width: 70vw;
-  background-color: #FFD0D0;
-  background-image: url('<img src="https://us.123rf.com/450wm/maximleshkovich/maximleshkovich1709/maximleshkovich170900118/85830613-flat-lay-home-office-desk-female-workspace-with-laptop-pink-peonies-bouquet-golden-accessories-pink-.jpg?ver=6');
+header {
+  background-image: url("https://www.jfcsmpls.org/wp-content/uploads/2018/02/Desk-alternate.jpeg");
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-size: auto 100%;
+  padding: 2rem;
+  text-align: center;
+  height: 400px;
+}
