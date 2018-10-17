@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fea3a3;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.container {
+  margin: auto;
+  max-width: 70vw;
+  background-color: #FFD0D0;
+  background-image: url('<img src="https://us.123rf.com/450wm/maximleshkovich/maximleshkovich1709/maximleshkovich170900118/85830613-flat-lay-home-office-desk-female-workspace-with-laptop-pink-peonies-bouquet-golden-accessories-pink-.jpg?ver=6');
+  background-repeat: no-repeat;
+  background-position: bottom;
