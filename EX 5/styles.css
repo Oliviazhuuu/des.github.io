@@ -15,13 +15,15 @@ in the middle of the browser no matter how wide you stretch the browser*/
   width: 50%;
 }
 header {
-    background-image: url("https://blogs.thomsonreuters.com/answerson/wp-content/uploads/sites/3/2015/09/2936541954-shutterstock-analytics-planning-innovative-solutions-800x450.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
-    height: 500px;
-    margin-bottom: 4rem;
 
+
+}
+header img {
+  width: 100%;
+  height: 850px;
 }
 h1 {
   text-align: center;
