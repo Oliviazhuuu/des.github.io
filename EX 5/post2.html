@@ -7,6 +7,40 @@
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    #styled {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: .2fr;
+      max-width: 100vw;
+      margin-bottom: 10%;
+      margin-top: 10%;
+    }
+
+    #list1 {
+      grid-row: 1;
+      grid-column: 1/2;
+      background-color: white;
+    }
+
+    #list2 {
+      grid-row: 1;
+      grid-column: 2/3;
+      background-color:  white;
+    }
+
+    #list3 {
+      grid-row: 1;
+      grid-column: 3/4;
+      background-color: #FFAE09;
+    }
+
+    #list4 {
+      grid-row: 1;
+      grid-column: 4/5;
+      background-color: white;
+    }
+  </style>
 </head>
 
 <body>
@@ -14,11 +48,23 @@
     <header>
       <img src="https://blogs.thomsonreuters.com/answerson/wp-content/uploads/sites/3/2015/09/2936541954-shutterstock-analytics-planning-innovative-solutions-800x450.jpg" alt="pic">
     </header>
+    <h1>History of Online Knowledge Sharing Platforms</h1>
+    <section>
+      <nav>
+        <ul id="styled">
+          <li id=list1><a href="./index.html">Home</a></li>
+          <li id=list2><a href="./post1.html">15,000 BC</a></li>
+          <li id=list3><a href="./post2.html">20th Century</a></li>
+          <li id=list4><a href="./post3.html">Today</a></li>
+        </ul>
+      </nav>
+    </section>
     <article>
-      <h2>Sharing Information in the 20th Century</h2>
+      <h2>The Rise of the Real-time Radio Broadcasting</h2>
       <p>The 1900s saw incredibly rapid changes in knowledge sharing, starting with real-time radio broadcasting at the beginning of the century and then culminating with the invention of the internet in the 1980s. As information grew more and more accessible, it was harder to imagine functioning without the technologies enabling this new level of connectivity. It quickly became clear that a means for managing this excess, albeit incredibly useful, information was greatly needed.Research shows that consultants were amongst the first professionals to seriously explore and consider the best means of sharing knowledge. Some consulting companies relied on key players to manage and share knowledge via person-to-person interactions, whereas other organizations turned to computers to codify and store information in databases. Using computers allowed them to communicate knowledge rather than simply store it. As companies grew and technology improved, one lesson had been made clear: the death of knowledge is to isolate it.
         <a href="./index.html">Go Back</a>
       </p>
+      <br>
       <img id="radio" src="https://www.blogtalkradio.com/content/images/home/home-full-hd.jpg" alt="radio">
     </article>
     <footer>

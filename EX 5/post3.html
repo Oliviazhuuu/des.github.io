@@ -7,6 +7,40 @@
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    #styled {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: .2fr;
+      max-width: 100vw;
+      margin-bottom: 10%;
+      margin-top: 10%;
+    }
+
+    #list1 {
+      grid-row: 1;
+      grid-column: 1/2;
+      background-color: white;
+    }
+
+    #list2 {
+      grid-row: 1;
+      grid-column: 2/3;
+      background-color: white;
+    }
+
+    #list3 {
+      grid-row: 1;
+      grid-column: 3/4;
+      background-color: white;
+    }
+
+    #list4 {
+      grid-row: 1;
+      grid-column: 4/5;
+      background-color: #FFAE09;
+    }
+  </style>
 </head>
 
 <body>
@@ -14,36 +48,49 @@
     <header>
       <img src="https://blogs.thomsonreuters.com/answerson/wp-content/uploads/sites/3/2015/09/2936541954-shutterstock-analytics-planning-innovative-solutions-800x450.jpg" alt="pic">
     </header>
-    <article>
-      <h2>4 Factors Driving the Present and Future of Knowledge Sharing</h2>
-
-      <h4>1. DEEP INDEXING FOR OPTIMAL SEARCH CAPABILITIES</h4>
-      <p>The biggest factor driving the development of knowledge sharing is search. The ability to type in a couple keywords and receive relevant results makes it easy to find not just a specific piece of content, but other similar, related content,
-        too. While this is great for written documents, technology now exists that allows a deep search within videos and PDFs, making search even more powerful.</p>
-
-      <h4>2. ARTIFICIAL INTELLIGENCE FOR MORE PERSONALIZED EXPERIENCES</h4>
-      <p>Artificial intelligence is driving the next wave of personalization enhancements to knowledge sharing platforms. AI can be used to establish contextual similarities between documents and to serve users relevant content suggestions. AI also
-        combs through uploaded content to identify relevant tags and then pin those tags to content, making documents 50% more findable. Bloomfire COO Mark Hammer believes that the future of knowledge sharing platforms is incumbent on the continued
-        integration of artificial intelligence. Without AI, database content loses context. Not only does such technology make content more searchable, but it can also be programmed to push relevant content to the appropriate people at the right
-        time. To do so, search engines will need AI engines that personalize information based on interests and recognizable patterns. Through a combination of ranking algorithms and identifying contextually similar content, AI addresses a wide
-        variety of applications.</p>
-
-      <h4>3. COLLABORATIVE CAPABILITIES PROVIDING CONTEXT FOR CONTENT</h4>
-      <p>Interacting with, rather than simply viewing, content provides context and helps deepen understanding. When users can interact with content by writing comments, posing questions, and “liking” documents, technology can spur collaboration.
-        “My ability to see what questions are being posted on the platform, and the comments and follows to the content, has greatly enhanced my ability to see what’s going on in the organization,” said Hammer. “Seeing the content posted is one
-        thing, but Bloomfire gives me that ability to see our walls being knocked down. I ask myself, are there things not being addressed? Why not, and who’s responsible? Do we have a gap in coverage?”</p>
-
-      <h4>4. CUSTOMER CENTRICITY REQUIRES KNOWLEDGE SHARING</h4>
-      <p>Understanding your customers is one of the most valuable investments a business can make. However, it’s the actions and strategies impacted that really make the investment worthwhile. Yet organizations often run into obstacles when managing
-        and sharing research, diminishing its impact. According to Forrester, only 49% of business decisions are made using qualitative data, as opposed to opinions or gut feelings. Often departmental or technological silos exist between business
-        units that prevent information from flowing between the knowledge holders, in most cases the insights team, to the business leaders, marketers, innovation teams, brand teams, and others who need it. Knowledge sharing platforms provide a
-        simple way for others to access high-level details from reports, leading to knowledgeable decisions on what actions in specific markets would prove beneficial.</p>
-      <a href="./index.html">Go Back</a>
-    </article>
-    <footer>
-      <p>Olivia Zhu</p>
-      <a href="http://validator.w3.org/check?uri=referer">Valid HTML5</a>
-    </footer>
+      <h1>History of Online Knowledge Sharing Platforms</h1>
+      <section>
+        <nav>
+          <ul id="styled">
+            <li id=list1><a href="./index.html">Home</a></li>
+            <li id=list2><a href="./post1.html">15,000 BC</a></li>
+            <li id=list3><a href="./post2.html">20th Century</a></li>
+            <li id=list4><a href="./post3.html">Today</a></li>
+          </ul>
+        </nav>
+      </section>
+      <article>
+        <h2>Today: The free platforms for Knowledge Sharing</h2>
+        <br>
+        <h4>Wikipedia</h4>
+        <p>Wikipedia is a multilingual, web-based, free-content encyclopedia project supported by the Wikimedia Foundation and based on a model of openly editable content. The name "Wikipedia" is a portmanteau of the words wiki (a technology for
+          creating collaborative websites, from the Hawaiian word wiki, meaning "quick") and encyclopedia. Wikipedia's articles provide links designed to guide the user to related pages with additional information. Wikipedia is written
+          collaboratively by largely anonymous volunteers who write without pay. Anyone with Internet access can write and make changes to Wikipedia articles, except in limited cases where editing is restricted to prevent disruption or vandalism.
+          Users can contribute anonymously, under a pseudonym, or, if they choose to, with their real identity.</p>
+        <br>
+        <img id="wikipedia" src="http://www.glaad.org/sites/default/files/images/2014-08/wikipedia.jpg" alt="wikipedia">
+        <br>
+        <h4>Google Scholar</h4>
+        <p>Google Scholar is a freely accessible web search engine that indexes the full text or metadata of scholarly literature across an array of publishing formats and disciplines. Released in beta in November 2004, the Google Scholar index
+          includes most peer-reviewed online academic journals and books, conference papers, theses and dissertations, preprints, abstracts, technical reports, and other scholarly literature, including court opinions and patents.</p>
+        <br>
+        <img id="googlescholar" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Scholar_logo.svg/1280px-Google_Scholar_logo.svg.png" alt="googlescholar">
+        <br>
+        <br>
+        <h4>Quora</h4>
+        <p>Quora is a question-and-answer website where questions are asked, answered, edited, and organized by its community of users in the form of opinions. Its publisher, Quora Inc., is based in Mountain View, California. The company was founded
+          in June 2009, and the website was made available to the public on June 21, 2010.[5] Users can collaborate by editing questions and suggesting edits to answers that have been submitted by other users.[6] Users on Quora are known for writing
+          long, blog post-like answers.</p>
+        <br>
+        <img id="quora" src="https://cdn.worldvectorlogo.com/logos/quora.svg" alt="quora">
+        <br>
+        <br>
+        <a href="./index.html">Go Back</a>
+      </article>
+      <footer>
+        <p>Olivia Zhu</p>
+        <a href="http://validator.w3.org/check?uri=referer">Valid HTML5</a>
+      </footer>
   </div>
 </body>
 

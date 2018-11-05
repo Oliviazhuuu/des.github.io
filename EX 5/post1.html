@@ -7,6 +7,40 @@
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    #styled {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: .2fr;
+      max-width: 100vw;
+      margin-bottom: 10%;
+      margin-top: 10%;
+    }
+
+    #list1 {
+      grid-row: 1;
+      grid-column: 1/2;
+      background-color: white;
+    }
+
+    #list2 {
+      grid-row: 1;
+      grid-column: 2/3;
+      background-color:  #FFAE09;
+    }
+
+    #list3 {
+      grid-row: 1;
+      grid-column: 3/4;
+      background-color: white;
+    }
+
+    #list4 {
+      grid-row: 1;
+      grid-column: 4/5;
+      background-color: white;
+    }
+  </style>
 </head>
 
 <body>
@@ -14,13 +48,25 @@
     <header>
       <img src="https://blogs.thomsonreuters.com/answerson/wp-content/uploads/sites/3/2015/09/2936541954-shutterstock-analytics-planning-innovative-solutions-800x450.jpg" alt="pic">
     </header>
+    <h1>History of Online Knowledge Sharing Platforms</h1>
+    <section>
+      <nav>
+        <ul id="styled">
+          <li id=list1><a href="./index.html">Home</a></li>
+          <li id=list2><a href="./post1.html">15,000 BC</a></li>
+          <li id=list3><a href="./post2.html">20th Century</a></li>
+          <li id=list4><a href="./post3.html">Today</a></li>
+        </ul>
+      </nav>
+    </section>
     <article>
-      <h2>The Beginning of Knowledge Sharing</h2>
+      <h2>15,000 BC: The Beginning of Knowledge Sharing</h2>
       <p>One of the earliest known iterations of knowledge sharing took the form of cave drawings in 15,000 BC. From there, documentation became more sophisticated, evolving from imagery to alphabets, and from walls to scrolls. Monks and academics
         took on the role of transcribing books and organizing encyclopedias, storing knowledge away in exclusive libraries. The invention of the printing press in 1440 was the first time information was easily distributed via print material. It
         wasn’t until over 400 years later that libraries were available to the general public.
         <a href="./index.html">Go Back</a>
       </p>
+      <br>
         <img id="cavepainting" src="https://images.fineartamerica.com/images-medium-large-5/horses-and-deer-from-the-caves-at-altamira-c15000-bc-cave-painting-prehistoric.jpg" alt="cavepainting">
     </article>
     <footer>
