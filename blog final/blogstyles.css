@@ -1,3 +1,55 @@
+body {
+  font-family: helvetica, sans-serif;
+  align-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: .2fr .2fr .8fr .2fr ;
+  max-width: 80vw;
+  margin: auto;
+}
+
+header {
+  grid-row: 1;
+  grid-column: 1 / 5;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10%;
+  text-align: center;
+
+
+}
+
+aside {
+  min-height: 10vh;
+  grid-row: 2;
+  grid-column: 1 / 5;
+}
+
+section {
+  grid-row: 3;
+  grid-column: 1/ 5;
+
+}
+
+footer {
+  grid-row: 4;
+  grid-column: 1 / 5;
+  text-align: center;
+}
 nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -7,19 +59,19 @@ nav ul {
 
 nav ul li {
   background: #FFAE09;
-  height: 2.5rem;
-  width: 18rem;
-  padding-top: 1.5rem;
-  border-color: black;
-  border: solid;
-  border-width: 1px;
-  text-align: center;
-  margin-right: 5rem;
+      height: 2.5rem;
+      width: 23%;
+      padding-top: 1.5rem;
+      border-color: black;
+      border: solid;
+      border-width: 1px;
+      text-align: center;
+      margin-right: 0;
 }
 
 nav ul li a {
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: black;
 }
 
