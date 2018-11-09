@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Ex7: CSS Grid One Page Layout Template</title>
+	<link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="blogstyles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style>
+		body {
+			font-family: Helvetica, sans-serif;
+			align-content: center;
+		}
+
+		.container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			grid-template-rows: .2fr 1.6fr .2fr;
+			max-width: 80vw;
+			margin: auto;
+		}
+
+		header {
+			grid-row: 1;
+			grid-column: 1 / 5;
+			padding-left: 3rem;
+			padding-bottom: 1rem;
+		}
+
+		.center {
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 100%;
+	}
+
+		h1 {
+			font-size: 3em;
+			margin-bottom: 10%;
+			text-align: center;
+
+
+		}
+
+		aside {
+			min-height: 50vh;
+			grid-row: 2;
+			grid-column: 1 / 2;
+		}
+
+		section {
+			grid-row: 2;
+			grid-column: 2/ 5;
+		}
+
+		footer {
+			grid-row: 3;
+			grid-column: 1 / 5;
+			text-align: center;
+			padding: 2rem;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<img src="https://blogs.thomsonreuters.com/answerson/wp-content/uploads/sites/3/2015/09/2936541954-shutterstock-analytics-planning-innovative-solutions-800x450.jpg" alt="pic" class="center">
+			 <h1>History of Online Knowledge Sharing Platforms</h1>
+		</header>
+
+		<aside>
+			<nav>
+	      <ul>
+					<nav>
+				 <li><a href="./page.html">Home</a></li>
+				 <li><a href="./post1.html">15,000 BC</a></li>
+				 <li><a href="./post2.html">20th Century</a></li>
+				 <li><a href="./post3.html">Today</a></li>
+			 </ul>
+		 </nav>
+	      </ul>
+	    </nav>
+		</aside>
+
+		<section>
+
+      <article>
+        <h2>Today: The free platforms for Knowledge Sharing</h2>
+        <br>
+        <h4>Wikipedia</h4>
+          <br>
+        <p>Wikipedia is a multilingual, web-based, free-content encyclopedia project supported by the Wikimedia Foundation and based on a model of openly editable content. The name "Wikipedia" is a portmanteau of the words wiki (a technology for
+          creating collaborative websites, from the Hawaiian word wiki, meaning "quick") and encyclopedia. Wikipedia's articles provide links designed to guide the user to related pages with additional information. Wikipedia is written
+          collaboratively by largely anonymous volunteers who write without pay. Anyone with Internet access can write and make changes to Wikipedia articles, except in limited cases where editing is restricted to prevent disruption or vandalism.
+          Users can contribute anonymously, under a pseudonym, or, if they choose to, with their real identity.</p>
+        <br>
+        <img id="wikipedia" src="http://www.glaad.org/sites/default/files/images/2014-08/wikipedia.jpg" alt="wikipedia">
+        <br>
+        <h4>Google Scholar</h4>
+          <br>
+        <p>Google Scholar is a freely accessible web search engine that indexes the full text or metadata of scholarly literature across an array of publishing formats and disciplines. Released in beta in November 2004, the Google Scholar index
+          includes most peer-reviewed online academic journals and books, conference papers, theses and dissertations, preprints, abstracts, technical reports, and other scholarly literature, including court opinions and patents.</p>
+        <br>
+        <img id="googlescholar" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Scholar_logo.svg/1280px-Google_Scholar_logo.svg.png" alt="googlescholar">
+        <br>
+        <br>
+        <h4>Quora</h4>
+          <br>
+        <p>Quora is a question-and-answer website where questions are asked, answered, edited, and organized by its community of users in the form of opinions. Its publisher, Quora Inc., is based in Mountain View, California. The company was founded
+          in June 2009, and the website was made available to the public on June 21, 2010.[5] Users can collaborate by editing questions and suggesting edits to answers that have been submitted by other users.[6] Users on Quora are known for writing
+          long, blog post-like answers.</p>
+        <br>
+        <img id="quora" src="https://cdn.worldvectorlogo.com/logos/quora.svg" alt="quora">
+        <br>
+        <br>
+        <a href="./page.html">Go Back</a>
+      </article>
+      <footer>
+        <p>Olivia Zhu</p>
+        <a href="http://validator.w3.org/check?uri=referer">Valid HTML5</a>
+      </footer>
+  </div>
+</body>
+
+</html>
