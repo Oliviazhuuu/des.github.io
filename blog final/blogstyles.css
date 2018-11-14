@@ -76,8 +76,24 @@ nav ul li a {
   color: black;
 }
 
-nav ul li:active {
-  background: #FBB400;
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #0278B5;
+}
+
+/* selected link */
+a:active {
+    color: #0278B5;
 }
 
 .locationmarker {
