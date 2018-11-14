@@ -37,6 +37,7 @@ aside {
   min-height: 10vh;
   grid-row: 2;
   grid-column: 1 / 5;
+  margin-top: -2%;
 }
 
 section {
