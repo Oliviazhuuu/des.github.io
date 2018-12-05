@@ -7,6 +7,7 @@
 
 header{
   position:fixed;
+  width:100%;
 }
 
 body {
@@ -18,9 +19,9 @@ body {
 
 section h1{
   color: white;
-  padding-left: 6rem;
   font-size: 3rem;
   height: 5%;
+  padding-top: 25%;
 }
 
 section p{
@@ -38,9 +39,10 @@ section p{
 }
 
 nav img{
-      height: 200px;
-      padding-left: 35rem;
-      width: 275px;
+height: 70px;
+padding-left: 70%;
+margin-top: -10%;
+width: 90px;
 }
 
 nav p{
@@ -53,13 +55,13 @@ nav ul{
 }
 
 nav ul li {
-  height: 0.5rem;
-padding-top: 1rem;
-text-align: right;
-font-size: 0.8rem;
-padding-left: 2rem;
-display: inline;
-float: left;
+    height: 0.5rem;
+    padding-top: 1rem;
+    text-align: right;
+    font-size: 0.8rem;
+    padding-left: 0.7rem;
+    display: inline;
+    float: left;
 }
 
 nav ul li a {
@@ -74,16 +76,6 @@ nav ul li a:active {
 
 nav ul li a:hover {
   color: red;
-}
-
-hr{
-  display: block;
-   height: 2px;
-   border: 0;
-   border-top: 2px solid red;
-   margin-left: 5%;
-   width:5%
-
 }
 
 footer{
@@ -112,7 +104,7 @@ img{
 
 .winters {
   width: 90%;
-  padding-left: 1rem;
+  padding-left: 0rem;
   background-image: url(./winters.png);
   background-repeat:no-repeat;
   background-size: 80vw auto;
@@ -133,7 +125,7 @@ footer p{
 .title{
   padding-top:25%;
   text-align:center;
-  font-size:2rem;
+  font-size:1.6rem;
   padding-bottom: 3rem;
   margin-bottom:0;
   }
@@ -147,12 +139,6 @@ background-color: red;
   text-align:right;
   padding-right: 4rem;
   font-size:0.5rem;
-}
-
-nav img{
-      height: 200px;
-      padding-left: 35rem;
-      width: 275px;
 }
 
 @media only screen and (min-width: 900px) {
@@ -179,16 +165,7 @@ nav img{
        display: grid;
        grid-template-columns: 1fr 1fr;
        grid-template-rows: 1fr;
-    }
-    nav ul li {
-      height: 0.5rem;
-    padding-top: 1rem;
-    text-align: right;
-    font-size: 0.8rem;
-    padding-left: 4rem;
-    display: inline;
-    float: left;
-    }
+}
     nav ul{
       text-decoration: none;
       padding-left: 2rem;
@@ -208,5 +185,30 @@ nav img{
       text-align:right;
       padding-right: 18rem;
       padding-top:2rem;
+    }
+    nav img{
+          height: 200px;
+          padding-left: 35rem;
+          width: 275px;
+              margin-top: 0;
+    }
+    nav ul li {
+      height: 0.5rem;
+    padding-top: 1rem;
+    text-align: right;
+    font-size: 0.8rem;
+    padding-left: 4rem;
+    display: inline;
+    float: left;
+    }
+    section h1{
+      color: white;
+      padding-left: 6rem;
+      font-size: 3rem;
+      height: 5%;
+      padding-top: 10%
+    }
+    header{
+      position:fixed;
     }
 }
