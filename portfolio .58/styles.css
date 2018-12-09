@@ -264,6 +264,7 @@ footer p {
 
 .work-more {
   text-align: center;
+  text-decoration-color: white;
 }
 
 .work5 {
@@ -382,14 +383,14 @@ footer p {
   }
 
   .about-intro {
-      max-width: 35%;
-      padding-left: 6rem;
-      text-align: justify;
-      font-size: 0.9rem;
-      margin-top: -28%;
-      font-family: 'Poppins';
-      font-weight: 200;
-      position: absolute;
+    max-width: 35%;
+    padding-left: 6rem;
+    text-align: justify;
+    font-size: 0.9rem;
+    margin-top: -28%;
+    font-family: 'Poppins';
+    font-weight: 200;
+    position: absolute;
   }
 
   .homepage-pic {
@@ -398,14 +399,14 @@ footer p {
   }
 
   .contact {
-      max-width: 80%;
-      padding-left: 6rem;
-      text-align: justify;
-      font-size: 1.5rem;
-      padding-top: 5%;
-      margin-top: -18%;
-      position: absolute;
-    }
+    max-width: 80%;
+    padding-left: 6rem;
+    text-align: justify;
+    font-size: 1.5rem;
+    padding-top: 5%;
+    margin-top: -18%;
+    position: absolute;
+  }
 
   .contact-intro {
     padding-left: 6rem;
@@ -419,6 +420,7 @@ footer p {
 
   .work-more {
     font-size: 0;
+    color: white;
   }
 
   header {
@@ -431,6 +433,29 @@ footer p {
     padding-top: 25%;
     text-align: center;
     font-size: 6rem;
+  }
+
+  .work1-name {
+    text-align: center;
+    padding-right: 7rem;
+    font-size: 0.5rem;
+    padding-bottom: 2rem;
+    margin-top: -1%;
+  }
+
+  .work5 {
+    width: 30%;
+    height: 70%;
+    padding-left: 7rem;
+    padding-top: 3rem;
+  }
+
+  .work5-name {
+    text-align: center;
+    padding-right: 7rem;
+    font-size: 0.5rem;
+    padding-bottom: 14rem;
+    margin-top: -1%;
   }
 
   section p {
@@ -498,7 +523,7 @@ footer p {
     font-weight: 400;
     font-size: 1.1rem;
     padding-top: 2%;
-    position:absolute;
+    position: absolute;
     padding-left: 47%;
   }
 }
