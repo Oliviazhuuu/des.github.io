@@ -100,6 +100,7 @@ nav p {
 nav ul {
   text-decoration: none;
   padding-left: 0rem;
+  z-index: 1;
 }
 
 nav ul li {
