@@ -6,18 +6,13 @@
 }
 
 header {
-  position: fixed;
-  width: 100%;
-  background-size: 101vw 66vw;
-}
-
-.background {
   background-image: url(./logo.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  position: fixed;
   width: 100%;
   height: 25%;
-  position: relative;
+  background-size: 101vw 66vw;
 }
 
 .work-background {
@@ -61,7 +56,7 @@ h1 {
   height: 3%;
   padding-left: 2.5rem;
   font-family: 'Poppins';
-  margin-top: 5%;
+  padding-top: 42%;
 }
 
 h2 {
@@ -69,6 +64,7 @@ h2 {
   font-size: 2rem;
   height: 2%;
   padding-left: 2.5rem;
+  padding-top: 44%;
 }
 
 section p {
@@ -222,7 +218,7 @@ img {
   text-align: justify;
   font-size: 1rem;
   padding-top: 10%;
-  padding-bottom: 10%;
+  padding-bottom: 7%;
 }
 
 .about-intro {
@@ -232,7 +228,9 @@ img {
   padding-left: 2.6rem;
   text-align: justify;
   font-size: 0.7rem;
-  padding-bottom: 1.2rem;
+  padding-bottom: 3.4rem;
+  font-family: 'Poppins';
+  font-weight: 200;
 }
 
 footer p {
@@ -283,7 +281,6 @@ footer p {
     width: 100%;
     height: 100%;
     position: relative;
-    z-index: -1;
   }
 
   .work-container {
@@ -297,15 +294,72 @@ footer p {
     height: 30%;
     grid-gap: 1rem;
     margin-bottom: -9%;
-}
+  }
 
   h1 {
-color: white;
-padding-left: 6rem;
-font-size: 4.5rem;
-height: 5%;
-padding-bottom: 1%;
-margin-top: -33%;
+    color: white;
+    padding-left: 6rem;
+    font-size: 4.5rem;
+    height: 5%;
+    padding-bottom: 1%;
+    margin-top: -78%;
+    position: absolute;
+  }
+
+  h2 {
+    color: white;
+    font-size: 2rem;
+    height: 2%;
+    padding-left: 7rem;
+    padding-top: 2rem;
+  }
+
+  .work1 {
+    width: 84%;
+    height: 100%;
+    padding-left: 7rem;
+    padding-bottom: 2rem;
+  }
+
+  .work1-name {
+    text-align: right;
+    padding-right: 7rem;
+    font-size: 0.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .work1-background {
+    background-image: url(./footer.jpg);
+    background-size: 101vw 10vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 12%;
+    position: relative;
+  }
+
+  .work1-intro {
+    padding-top: 1rem;
+    max-width: 70%;
+    padding-left: 7rem;
+    text-align: justify;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    font-weight: 200;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .work4-intro {
+    padding-top: 1rem;
+    max-width: 70%;
+    padding-left: 7rem;
+    text-align: justify;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    font-weight: 200;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .name {
@@ -313,8 +367,8 @@ margin-top: -33%;
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    margin-top: 1%;
-    padding-bottom:1%;
+    margin-top: -28%;
+    position: absolute;
   }
 
   .intro {
@@ -322,7 +376,18 @@ margin-top: -33%;
     padding-left: 6rem;
     text-align: justify;
     font-size: 1rem;
+    margin-top: -23.5%;
+    position: absolute;
+  }
+
+  .about-intro {
+    max-width: 35%;
+    padding-left: 6rem;
+    text-align: justify;
+    font-size: 0.9rem;
     margin-top: -1%;
+    font-family: 'Poppins';
+    font-weight: 200;
   }
 
   .homepage-pic {
@@ -330,8 +395,28 @@ margin-top: -33%;
     height: 0%;
   }
 
+  .contact {
+      max-width: 80%;
+      padding-left: 6rem;
+      text-align: justify;
+      font-size: 1.5rem;
+      padding-top: 5%;
+      margin-top: -18%;
+      position: absolute;
+    }
+
+  .contact-intro {
+    padding-left: 6rem;
+    max-width: 35%;
+    font-size: 2.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin-top: -40%;
+    position: absolute;
+  }
+
   .work-more {
-    font-size:0;
+    font-size: 0;
   }
 
   header {
@@ -405,18 +490,20 @@ margin-top: -33%;
 
   footer {
     background-image: none;
-    padding:0;
+    padding: 0;
     height: 9%;
     margin-top: 10%;
-}
+  }
 
-footer p {
+  footer p {
     color: white;
     text-align: center;
-    margin-top: -5%;
+    margin-top: -15%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
     padding-top: 2%;
+    position:absolute;
+    padding-left: 47%;
   }
 }
