@@ -20,17 +20,25 @@ header {
   position: relative;
 }
 
+.work-background {
+  background-image: url(./logo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 25%;
+  position: relative;
+}
+
 footer {
   background-image: url(./footer.jpg);
   height: 9%;
-  margin-top: 10%;
+  margin-top: 5%;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   padding-top: 0.6rem;
 }
 
-
-.footerbg{
+.footerbg {
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;
@@ -124,7 +132,7 @@ nav ul li a:hover {
 
 .homepage-pic {
   width: 81%;
-  height: 30%;
+  height: 32%;
   padding-left: 2.5rem;
   padding-top: 1rem;
 }
@@ -182,6 +190,8 @@ img {
   padding-left: 2.5rem;
   text-align: justify;
   font-size: 0.7rem;
+  font-family: 'Poppins';
+  font-weight: 200;
 }
 
 .work4-intro {
@@ -189,15 +199,46 @@ img {
   max-width: 80%;
   padding-left: 2.5rem;
   text-align: justify;
+  font-family: 'Poppins';
+  font-weight: 200;
 }
 
-.link{
-  color:white;
+.link {
+  color: white;
 }
+
+.contact-intro {
+  padding-left: 2.6rem;
+  max-width: 80%;
+  font-size: 2.2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  padding-top: 15%;
+}
+
+.contact {
+  max-width: 80%;
+  padding-left: 2.6rem;
+  text-align: justify;
+  font-size: 1rem;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.about-intro {
+  margin-top: 0%;
+  padding-top: 1%;
+  max-width: 80%;
+  padding-left: 2.6rem;
+  text-align: justify;
+  font-size: 0.7rem;
+  padding-bottom: 1.2rem;
+}
+
 footer p {
   color: white;
   text-align: center;
-  margin-top: -8%;
+  margin-top: -4%;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1.1rem;
@@ -240,11 +281,60 @@ footer p {
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    height: 70%;
+    height: 100%;
     position: relative;
+    z-index: -1;
   }
 
-header {
+  .work-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+    height: 30%;
+    grid-gap: 1rem;
+    margin-bottom: -9%;
+}
+
+  h1 {
+color: white;
+padding-left: 6rem;
+font-size: 4.5rem;
+height: 5%;
+padding-bottom: 1%;
+margin-top: -33%;
+  }
+
+  .name {
+    padding-left: 6rem;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin-top: 1%;
+    padding-bottom:1%;
+  }
+
+  .intro {
+    max-width: 35%;
+    padding-left: 6rem;
+    text-align: justify;
+    font-size: 1rem;
+    margin-top: -1%;
+  }
+
+  .homepage-pic {
+    width: 0%;
+    height: 0%;
+  }
+
+  .work-more {
+    font-size:0;
+  }
+
+  header {
     position: fixed;
     width: 100%;
     background-size: 101vw 60vw;
@@ -309,15 +399,24 @@ header {
     float: left;
   }
 
-  section h1 {
-    color: white;
-    padding-left: 6rem;
-    font-size: 3rem;
-    height: 5%;
-    padding-top: 10%
-  }
-
   header {
     position: fixed;
+  }
+
+  footer {
+    background-image: none;
+    padding:0;
+    height: 9%;
+    margin-top: 10%;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    margin-top: -5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding-top: 2%;
   }
 }
