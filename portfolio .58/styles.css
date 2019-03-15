@@ -363,7 +363,7 @@ footer p {
     position: absolute;
     padding-left: 47%;
   }
-  
+
   .background {
     background-image: url(./logo2.jpeg);
     background-repeat: no-repeat;
@@ -393,6 +393,27 @@ footer p {
     padding-left: 7rem;
     padding-bottom: 2rem;
   }
+
+  .work3logo {
+      width: 40%;
+      height: 100%;
+      padding-left: 29rem;
+      padding-bottom: 2rem;
+    }
+
+  .work3poster {
+    width: 50%;
+    height: 105%;
+    padding-left: 22rem;
+    padding-bottom: 2rem;
+  }
+
+  .work3poster2 {
+      width: 50%;
+      height: 85%;
+      padding-left: 22rem;
+      padding-bottom: 2rem;
+    }
 
   .work1-name {
     text-align: right;
